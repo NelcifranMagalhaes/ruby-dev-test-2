@@ -13,5 +13,4 @@ class AlbumTest < ActiveSupport::TestCase
     @album.name = "   "
     assert_not @album.valid?
   end
-
 end
